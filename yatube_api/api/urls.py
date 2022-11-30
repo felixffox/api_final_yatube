@@ -9,7 +9,7 @@ router.register(
     r'posts/(?P<post_id>\d+)/comments',
     CommentViewSet,
     basename='comments'
-    )
+)
 router.register(r'follow', FollowViewSet, basename='follow')
 router.register(r'groups', GroupViewSet, basename='groups')
 
